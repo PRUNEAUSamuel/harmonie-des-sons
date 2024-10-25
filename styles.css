@@ -1,9 +1,26 @@
-html {font-size: 16px;}
+html {font-size: 16px;
+    text-align: center;}
 
-input:focus, textarea:focus {
+        /* logos */
 
-}
+.logo {height: 10%;
+    width: 10%;
+    max-height: 75px;
+    max-width: 75px;
+    margin-left: 1%;
+    margin-right: 1%;}
 
-.button:hover {
+        /* vidéo */
 
-}
+        /* audio */
+
+        /* map */
+
+        /* formulaire */
+
+form * {border: 1px solid black;
+    border-radius: 10px;}
+
+input:focus, textarea:focus {color: aqua;}
+
+.button:hover {}

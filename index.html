@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harmonie des Sons</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
-
+            <a href="https://www.facebook.com/?locale=fr_FR" target="_blank"><img src="images/fb.avif" alt="Facebook icon" class="logo"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="images/ig.avif" alt="Instagram icon" class="logo"></a>
+            <a href="https://workspace.google.com/intl/fr/gmail/" target="_blank"><img src="images/mail.avif" alt="Mail icon" class="logo"></a>
+            <a href="https://x.com/?lang=fr" target="_blank"><img src="images/twitter.avif" alt="X icon" class="logo"></a>
         </nav>
     </header>
     <main>
@@ -31,23 +34,34 @@
 
         <section>  <!-- Section 4 présentant le formulaire -->
             <form action="&">
-                <label for="name">Nom :</label>
-                <input type="text" id="name" placeholder="Nom">
-                <label for="mail">Email :</label>
-                <input type="email" id="mail" placeholder="Email">
-                <label for="subj">Sujet :</label>
-                <input type="select" id="subj">
-                    <option value="">eng</option>
-                    <option value="">francais</option>
-                <input/>
-                <label for="msg"></label>
-                <textarea id="msg" placeholder="Votre message"></textarea>
+                <div>
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" placeholder="Nom">
+                </div>
+                <div>
+                    <label for="mail">Email :</label>
+                    <input type="email" id="mail" placeholder="Email">
+                </div>
+                <div>
+                    <label for="subj">Sujet :</label>
+                    <select name="sujet" id="subj">
+                        <option value="">eng</option>
+                        <option value="">francais</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="msg">Votre message :</label>
+                    <textarea id="msg" placeholder="Ecrivez-nous"></textarea>
+                </div>
                 <input type="button" value="Envoyer" class="button">
             </form>
         </section>
     </main>
     <footer>
-
+        <a href="https://www.facebook.com/?locale=fr_FR" target="_blank"><img src="images/fb.avif" alt="Facebook icon" class="logo"></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="images/ig.avif" alt="Instagram icon" class="logo"></a>
+        <a href="https://workspace.google.com/intl/fr/gmail/" target="_blank"><img src="images/mail.avif" alt="Mail icon" class="logo"></a>
+        <a href="https://x.com/?lang=fr" target="_blank"><img src="images/twitter.avif" alt="X icon" class="logo"></a>
     </footer>
 </body>
 </html>
